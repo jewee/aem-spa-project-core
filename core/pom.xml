@@ -157,7 +157,6 @@ Bundle-DocURL:
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>uber-jar</artifactId>
-            <classifier>apis</classifier>
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
