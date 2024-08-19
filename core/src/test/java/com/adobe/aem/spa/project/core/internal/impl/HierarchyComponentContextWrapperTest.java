@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.designer.Cell;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyBoolean;
-import static org.mockito.ArgumentMatchers.anyObject;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
@@ -101,9 +101,9 @@ class HierarchyComponentContextWrapperTest {
 
     @Test
     void testSetAttribute() {
-        verify(componentContext, times(0)).setAttribute(anyString(), anyObject());
+        verify(componentContext, times(0)).setAttribute(anyString(), any());
         hccw.setAttribute("attributeName", "attributeValue");
-        verify(componentContext, times(1)).setAttribute(anyString(), anyObject());
+        verify(componentContext, times(1)).setAttribute(anyString(), any());
     }
 
     @Test

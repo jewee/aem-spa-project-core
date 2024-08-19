@@ -13,7 +13,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 17
       - name: Install dependencies and Build the project
         run: mvn clean install
       - name: Upload code coverage report to workflow as an artifact

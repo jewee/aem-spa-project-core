@@ -55,7 +55,7 @@ import static com.adobe.aem.spa.project.core.internal.HierarchyConstants.ATTR_HI
 import static com.adobe.aem.spa.project.core.internal.HierarchyConstants.PN_IS_ROOT;
 import static com.adobe.aem.spa.project.core.internal.HierarchyConstants.PN_STRUCTURE_PATTERNS;
 import static com.adobe.aem.spa.project.core.models.Page.PN_STRUCTURE_DEPTH;
-import static org.apache.commons.collections.IteratorUtils.emptyIterator;
+import static org.apache.commons.collections4.IteratorUtils.emptyIterator;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
